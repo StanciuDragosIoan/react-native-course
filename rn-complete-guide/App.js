@@ -28,6 +28,8 @@ export default function App() {
     setIsAddMode(false);
   };
 
+  console.log("HELLO_THERE");
+
   return (
     <View style={styles.screen}>
       <Button title="Add new goal" onPress={() => setIsAddMode(true)} />
